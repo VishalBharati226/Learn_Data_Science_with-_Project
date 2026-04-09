@@ -44,7 +44,3 @@ A simple project where electricity bill is calculated using slab-based logic.
 * Ability to solve real-world problems using Python
 
 ---
-
-## 🚀 Next Step
-
-Moving to **Loops** to handle repetitive tasks and build more advanced logic.
