@@ -1,97 +1,50 @@
-# ⚡ Electricity Bill Analysis (EDA Mini Project)
+# 🔁 Conditional Statements (if-elif-else)
 
-## 📌 Project Overview
+## 📌 Overview
 
-This is a simple Python project where I built a basic electricity bill calculator using a **slab-based pricing system**.
-The goal was to understand how real-world billing works and apply **conditional statements** to solve it.
-
----
-
-## 🎯 What this project does
-
-* Takes electricity units as input
-* Calculates the bill based on slab rates
-* Displays the total bill clearly
-* Helps understand how billing logic works in real life
+This chapter focuses on decision-making in Python using conditional statements.
+It helps in building logic for real-world problems.
 
 ---
 
-## 🧠 Concepts I used
+## 🧠 Topics Covered
 
-* Variables
-* `if-elif-else` (conditional statements)
-* Basic calculations
-
----
-
-## ⚙️ Billing Logic
-
-| Units Consumed | Rate         |
-| -------------- | ------------ |
-| 0 – 100        | ₹5 per unit  |
-| 101 – 200      | ₹7 per unit  |
-| Above 200      | ₹10 per unit |
-
-💡 Instead of applying a flat rate, this project uses **slab-based calculation**, just like actual electricity bills.
+* if statement
+* if-else
+* if-elif-else
+* Comparison operators
+* Logical operators (`and`, `or`, `not`)
 
 ---
 
-## 💻 Code
+## 💻 Practice Work
 
-```python
-unit = int(input("Enter electricity units consumed: "))
+In this chapter, I solved multiple problems such as:
 
-if unit < 0:
-    print("Invalid electricity unit")
-
-elif unit <= 100:
-    bill = unit * 5 
-
-elif unit <= 200:
-    bill = (100 * 5) + (unit - 100) * 7
-
-else:
-    bill = (100 * 5) + (100 * 7) + (unit - 200) * 10
-
-print("Electricity unit consumed is:", unit)
-print("Total Electricity Bill is: ₹", bill)
-```
+* Positive / Negative number check
+* Even or Odd
+* Voting eligibility
+* Largest of numbers
+* Grade system
 
 ---
 
-## 📥 Example
+## 📊 Mini Project
 
-```
-Input: 100  
-Output: Total Electricity Bill is: ₹500
-```
+### ⚡ Electricity Bill Analysis
 
----
-
-## 📊 What I observed
-
-* As units increase, the total bill increases
-* Higher usage leads to higher cost
-* Slab system makes billing more realistic
+A simple project where electricity bill is calculated using slab-based logic.
 
 ---
 
-## ✅ Conclusion
+## 🎯 Learning Outcome
 
-This project helped me understand how to use **conditional logic in a practical scenario**.
-It’s a small project, but it builds a strong foundation for solving real-world problems using Python.
-
----
-
-## 🚀 What I can improve next
-
-* Handle multiple users
-* Store and analyze data
-* Add graphs using libraries like matplotlib
-* Convert it into a proper EDA project
+* Improved logical thinking
+* Better understanding of conditions
+* Ability to solve real-world problems using Python
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Next Step
 
-**Vishal Bharati**
+Moving to **Loops** to handle repetitive tasks and build more advanced logic.
