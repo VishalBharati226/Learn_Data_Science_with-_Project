@@ -94,4 +94,4 @@ It’s a small project, but it builds a strong foundation for solving real-world
 
 ## 👨‍💻 Author
 
-**Vishal**
+**Vishal Bharati**
