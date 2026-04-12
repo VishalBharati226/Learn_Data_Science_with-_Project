@@ -3,7 +3,7 @@
 ## 📌 Overview
 
 This chapter focuses on decision-making in Python using conditional statements.
-It helps in building logic for real-world problems.
+It helps in building logic for real-world problems..
 
 ---
 
